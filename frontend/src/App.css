@@ -1,0 +1,51 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 1px solid #1f6a39;
+  overflow: hidden;
+}
+
+.login-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.login-form button {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #1f6a39;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.username {
+  font-weight: bold;
+  color: #1f6a39;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
